@@ -1,0 +1,31 @@
+body {
+    padding: 20px;
+}
+
+#form {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+label{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    width: 100px;
+}
+
+.button_div {
+    width: 100%;
+    text-align: left;
+    background: lightgrey;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+
