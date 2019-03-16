@@ -1,0 +1,68 @@
+@import url(grid.css);
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    float: left;
+
+}
+
+.menu li {
+    display: inline-block;
+    height: 60px;
+    width: 100px;
+    background: snow;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid rebeccapurple;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.slider{
+    list-style-type: none;
+    position: relative;
+
+}
+.slider li{
+    display: none;
+}
+.slider li.acitive{
+    display: block;
+}
+
+.tex{
+    font-family: sans-serif;
+    font-size: 30px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+.tex2{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card{
+    border: 2px solid red;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 60px;
+}
+.card2{
+    border: 2px solid red;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 250px;
+}
